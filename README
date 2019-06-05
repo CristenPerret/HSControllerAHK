@@ -1,0 +1,27 @@
+I have Copied /u/Chrisma's AHK Script for Hearthstone this ones bare bones.
+Thank you for leaving it out for anyone.
+My resolution used for the game was 1920x1080.
+Most of it was set to be more absolute, so if the ratio is the same I would assume most of the key locations are to be found in the same spaces.
+However after testing this on my other monitor I have ran into a few issues, so this is a script that may include some outside knowledge to get it working on your end, hopefully not too much effort though. 
+
+Using JoytoKey to enable the script entirely/ Hearthstone for the most part can be used fairly easily without any script at all.
+The only issues ran into is that Forefitting can take 3 input button reserves, and smorcing a board is very inputheavy.
+
+With JoytoKey I have set a modifier to my Leftbumper input (Button5) to allow my main analog to serve as my Emote wheel. Where Up is 'Threaten', Left is 'Well Played', Down is 'Greetings', Right is 'Oops'. There are 2 more inputs, and was thinking of adding Left bumper + Stick1 Press, and Left bumper + Button5.
+
+To quick play a card you can use the Left Bumper which is used to 'Smorc' (moves to enemy portrait, and left clicks). So beware if using a battlecry with a target expecially if it heals. Instead you can use the 'POV Left or Down" to select the middle of your allied board + Button 1 to place the card carefully, and then adjust the proper target. However this can also be used to quickly deal face damage with a card like Fireball/ Battlecries that you want to hit to the enemy.
+
+There is no up or down on the main directional stick because I felt that having inputs that move the user between different Y placements from Hand/ Allied portrait/ Hero Power/ Allied Board/ EnemyBoard/ Enemy Portrait really subsided this need. Personally allowing me to move up and down on the stick gave me more performance issues where it was more difficult to target the thing I wanted to select. Another thing I did to adjust my accuracy with my Mouse was to reduce the APM for the Left, and Right. Where I felt a somewhat too high input rate, even with a low sensitivity made it feel as if on thin ice, and having to stop on a dime. Personally im not a console person, and have very little muscle memory/accuracy attributed to analog sticks, so its entirely user preference.
+
+There is a Rest point used in most of the script, and is placed just barely above the portrait to avoid mouseovering certain cards, and affecting certain functions adversely. Becareful that the cursor doesnt rest ontop of the Quest Gem though, if using a different resolution.
+
+The End turn is placed barely outside of the button to not be where the card drawn animation is to click it even quicker. The end turn also puts the mouse at the rest point which can be used to clear the window when entering Bartender Bob's event in Solo Adv.
+
+I have a setting on JoyToKey for my Main Joystick Press swaps to a profile that is suitable for basic navigation to easily select things in the main menu / Solo adventure drafting
+
+The main 'Smorc' Function that is bound to 'Y', or Button 4 might need some fiddling with.
+Ideally the position that the 'TopLeft/BottomRight' Varible should be aligned to is at the top Apex of the green boarder of the attack ring that surrounds a unit to verify that it can attack. If its too low and goes inside the units portrait pane it may get a false positive and loop ininitely, where you'd have to press the Anolog 2 stick down to reload the script. An Easy example of a unit that will loop this ininitely is the Green Taunt Totem by Shaman. For me my script will sometimes pick up the 'Zzz' Summoning Sickness, so breaking the loop sometimes might be nessisary.
+It also select the white on the left side of the Allied Hero Portait for when they can attack, and it will also only go face.
+
+Currently I want to make a smart key to remember an enemy unit as if to have a board of 1/1s attacking a single unit, and maybe establish gamestates to enable/disable controls for when in a match, and for when in the main menu/drafting, or even for disover/adapt mechanics.
+Accepting any questions/ inputs.
